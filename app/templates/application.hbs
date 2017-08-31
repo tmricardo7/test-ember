@@ -1,5 +1,19 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="top-nav">
+    <div class="top-logo">
+        <img src="/assets/images/xyz-logo.png" alt="">
+    </div>
+    <div class="nav-items">
+        <ul> 
+            <li>
+                {{#link-to 'report' tagName='span'}}Report{{/link-to}}
+            </li>
+            <li>
+                {{#link-to 'report' tagName='span'}}Settings{{/link-to}}
+            </li>
+        </ul>
+    </div>
+</div>
 
+<div class="body-content">
 {{outlet}}
+</div>

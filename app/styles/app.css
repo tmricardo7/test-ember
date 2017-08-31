@@ -1,0 +1,97 @@
+body{
+    margin:0px;
+}
+
+.top-nav{
+    z-index:1001;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255,255,255,0);
+    background: white;
+    /* height:120px; */
+}
+
+
+.top-logo img{
+    top: 20px;
+    width:130px;
+    height:100px;
+    left: 30px;
+    position: absolute;
+    cursor:pointer;
+}
+
+.nav-items{
+    float:right;
+    margin: 0 auto;
+    position: relative;
+    top:25px;
+    height:20px;
+}
+
+.nav-items ul{
+    list-style-type: none;
+    margin: auto;
+    padding-right: 20px;
+    position: relative;
+}
+
+.nav-items li{
+    display:inline;
+    padding-left:34.53px;
+    font-size:18px;
+    font-family: merlo_neuemedium;
+    color: #000245;
+}
+
+.nav-items li:hover{
+    color: #FF5050;
+}
+
+
+.nav-items li span.active{
+    font-family: merlo_neuesemi_bold;
+    color: #FF3636;
+}
+
+.body-content{
+    top: 70px;
+    width:100%;
+    height:1430px;
+    width:1000px;
+    position: absolute;
+}
+
+.main-report .company-heading{
+    position: relative;
+    top: 80px;
+}
+
+.company-content{
+    height:405px;
+}
+
+.company-heading{
+    line-height:48px;
+}
+
+.heading{
+    font-family: 'merlo_neuesemi_bold_italic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    color: #000245;
+    text-align: center;
+}
+
+.background-circle{
+    border-radius: 50%;
+    width: 300vw;
+    height: 300vw; 
+    background-color:#E3E8Ef;
+    position: relative;
+    margin-left:-740px;
+    overflow: hidden;
+    z-index:-1;
+}
