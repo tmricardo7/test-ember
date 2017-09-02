@@ -43,6 +43,7 @@ body{
     font-size:18px;
     font-family: merlo_neuemedium;
     color: #000245;
+    line-height: 24px;
 }
 
 .nav-items li:hover{
@@ -64,17 +65,22 @@ body{
 }
 
 .main-report .company-heading{
-    position: relative;
-    top: 80px;
+    position: absolute;
+    top: 20px;
+    line-height:48px;
+    width: 100%;
 }
 
 .company-content{
     height:405px;
+    overflow: hidden;
+    position:relative;
+    top: 60px;
 }
 
-.company-heading{
+/* .company-heading{
     line-height:48px;
-}
+} */
 
 .heading{
     font-family: 'merlo_neuesemi_bold_italic';
@@ -83,6 +89,7 @@ body{
     font-size: 44px;
     color: #000245;
     text-align: center;
+    line-height: 50px;
 }
 
 .background-circle{
@@ -90,8 +97,98 @@ body{
     width: 300vw;
     height: 300vw; 
     background-color:#E3E8Ef;
-    position: relative;
+    position: absolute;
     margin-left:-740px;
     overflow: hidden;
     z-index:-1;
+    /* top: 60px; */
 }
+
+.company-info{
+    left: 190px;
+    top: 100px;
+    position: absolute;
+}
+
+.company-detail-label{
+    font-family:merlo_neuebold_italic;
+    color: #FF3636;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height:22px;
+}
+
+.company-detail-info{
+    color: #000245;
+    font-family: merlo_neueregular;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.company-dba{
+    font-size: 38px;
+    font-family: 'kaleidossmooth';
+    line-height: 34px;
+}
+
+.company-detail-row{
+    margin-bottom: 30px;
+    width:460px;
+    text-align: left;
+    display: inline-flex;
+}
+
+.company-detail-col-2{
+    width:100%;
+}
+
+.company-detail-col-1{
+    width: 50%;
+}
+
+.company-detail-info{
+    color: #000245;
+}
+
+.company-detail-info.website-container{
+    display: table;    
+}
+
+.website-link-container{
+    top: -5px;
+}
+
+.website-cell{
+    display: table-cell;
+}
+
+
+.website-link-container.website-cell{
+    vertical-align: middle;
+    position: relative;
+    top: -5px; /*  (40px - 30px) = 10px ; (10px / 2) = 5px  */
+}
+
+
+.website-link{
+    margin-left:10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    background-color:#FF3636;
+    text-align: center;
+}
+
+.website-link i{
+    font-size:20px;
+    color: white;
+    line-height: 0px;
+    height: 100%;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    display: inherit;
+    position: relative;
+}
+
